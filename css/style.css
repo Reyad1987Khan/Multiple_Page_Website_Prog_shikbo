@@ -18,6 +18,7 @@
     align-items: center;
     background: var(--fist-bg-color);
     padding: 0rem 3rem;
+   box-shadow: 0rem .2rem .3rem rgb(91, 91, 221);
 }
 
 .logo{
