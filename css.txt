@@ -1,0 +1,32 @@
+.hero-area {
+   background-image: url(/image/heroarea.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 15rem 0rem;
+}
+.search-box-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box-icon-parent #search {
+    width: 30rem;
+    height: 2.9rem;
+    padding: .5rem .5rem;
+    border: none;
+}
+.icon i {
+    color: red;
+    font-size: 2rem;
+    background: green;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-left: -.5rem;
+}
