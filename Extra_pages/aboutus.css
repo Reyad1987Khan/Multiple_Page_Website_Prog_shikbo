@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --fist-bg-color: #282463;
+    --nav-bg-color: linear-gradient(90deg, rgb(48, 2, 75) 0%, rgb(21, 34, 43) 100%);
+    --second-bg-color: #2b1036;
+    --font-color: hsl(0, 0%, 99%);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--fist-bg-color);
+    padding: 0rem 3rem;
+    border-bottom: .1rem solid rgb(149, 47, 197);
+    position: sticky;
+    top: 0rem;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo >h2{
+    color: var(--font-color);
+    margin-left:.5rem;
+ }
+
+.logo > a > img {
+    width:5rem;
+    height: 5rem;
+}
+
+
+.nav-link>ul>li {
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+.nav-link>ul{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+  }
+
+
+.nav-link>ul li a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-link>ul>li:hover a{
+    background: var(--nav-bg-color);
+    border-radius: .5rem;
+    color: darkgoldenrod;
+ }
+
+/* About US Design  */
+.about-container{
+    width: 60rem;
+    margin: 3rem auto;
+    box-shadow: .5rem .5rem 1rem gray;
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+.about-text {
+    margin: 10rem 0rem;
+    
+}
+.about-text h2{
+font-size: 3rem;
+padding: 1.5rem 0rem;
+color: blue;
+}
+.about-text p{
+    line-height: 1.5rem;
+    padding: 1rem 0rem;
+}
+.about-text a{
+   text-decoration: none;
+   padding: .5rem 2rem;
+   background-color: blue;
+   color: #fff;
+   border: none;
+   border-radius: .5rem;
+}
+
+.about-image {
+    margin-top: 3rem;
+    width: 50rem;
+    padding: 1rem 1rem;
+}
+
+
+.about-image img{
+    width: 100%;
+}
+.about-image p{
+text-align: center;
+color: gray;
+margin-top: 3rem;
+}
